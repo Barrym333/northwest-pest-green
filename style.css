@@ -1,0 +1,429 @@
+body {
+    background-color: black;
+    text-align: center;
+    
+    
+}
+
+
+
+p {
+color: #fffdfa;
+font-size: 150%;
+text-align: center;
+justify-content: space-around;
+} 
+
+
+.round-image {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Keep height and width the same for a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fits well inside the circle */
+    display: block; /* Removes extra spacing */
+    margin: 0 auto; /* Centers the image */
+}
+
+.round-video {
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Keep width and height the same for a perfect circle */
+    border-radius: 50%; /* Makes the video round */
+    object-fit: cover; /* Ensures the video fills the circle properly */
+    overflow: hidden; /* Ensures content stays within the circle */
+    display: block;
+    margin: 0 auto; /* Centers the video */
+}
+
+
+
+.round-image2 {
+    width: 350px; /* Adjust the size as needed */
+    height: 350px; /* Keep height and width the same for a perfect circle */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fits well inside the circle */
+    display: block; /* Removes extra spacing */
+    margin: 0 auto; /* Centers the image */
+}
+
+
+
+
+
+
+
+
+#navbar 
+ {
+    height: 20px;
+    background-color: black;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+#navbar a
+{
+font-size: 25px;
+color: black;
+text-decoration: none;
+}
+
+#navbar a:hover
+{
+color: darkgreen;}
+
+
+
+/* Center images horizontally */
+img {
+    display: block; /* Remove inline display */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+        padding: -10px;
+        background-color: black;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    /* .container {
+        width: 100%;
+        padding: 10px;
+    } */
+
+    /* nav {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Adds space between items
+        width: 200px; /* Make images responsive */
+        /* height: 200px;
+        } */ */
+
+
+        /* nav a {
+            display: block;
+            padding: 12px 20px;
+            font-size: 16px;
+        } */
+
+
+/* 
+    nav ul {
+        padding: 0;
+        list-style: none;
+    } */
+
+    /* nav ul li {
+        display: block;
+        margin: 10px 0;
+    } */
+
+    /* .content {
+        text-align: center;
+    } */
+
+    /* .image { 
+        width: 200px; /* Make images responsive */
+        /* height: 150px;
+        align-items: center;
+    } */ 
+
+    /* button {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+    } */
+
+     /* #banner-main { */
+        /* #makes images responsive
+        width: 200px; 
+        height: 400px;
+    } */
+
+    #banner-main {
+        width: 200px;  /* Set to the desired square size */
+        height: 200px; /* Make width and height equal for a square */
+        background-color: black; /* Keep or change the background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto; /* Centers it on the page */
+        overflow: hidden; /* Ensures no content spills out */
+    }
+    .wrapper-main
+    {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    }
+
+     img {
+        max-width: 100%;  /* Ensures the image doesn't exceed its container */
+        height: auto;     /* Keeps the aspect ratio */
+        display: block;   /* Removes extra spacing issues */
+        align-items: center;
+    }
+
+    
+        #navbar {
+            flex-direction: column; 
+           /* Increase spacing on smaller screens */
+            /* gap: 5px;  */
+            background-color: black;
+            height: 10px;
+            /* align-items: flex-start; */
+        }
+
+
+        #navbar a{
+             font-size: 10px;
+             padding: 0px;
+        }
+        
+
+/* Make the navbar a small button */
+.navbar-button {
+    width: 60px;  /* Square size */
+    height: 60px; /* Same width and height for a button */
+    background-color: black; /* Button color */
+    border: none;
+    border-radius: 10px; /* Optional: rounded edges */
+    position: fixed; /* Stays in place */
+    top: 10px; /* Adjust position */
+    left: 10px; /* Adjust position */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Hamburger icon inside the button
+.navbar-button .hamburger {
+    font-size: 2em;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hide the menu initially */
+/* .nav-menu {
+    display: none;
+    position: absolute;
+    top: 70px; /* Position below the button */
+    /* left: 10px;
+    width: 200px; /* Menu width */
+    /* background-color:black;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}  */
+
+/* Show menu when active */
+.nav-menu.active {
+    display: block;
+}
+
+
+
+
+        /* nav ul li {
+            padding: 12px 0;
+        } */
+    }
+
+
+    #contact {
+        max-width: 300px;
+        margin: 5px auto;
+        padding: 50px;
+        background-color: black;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        text-align: center;
+        color: #fffdfa;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        margin-top: 5px;
+        padding: 10px;
+        background: green;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background: black;
+    }
+
+
+
+    /* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 15px 20px;}
+
+
+
+/* .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}  */
+
+.hamburger {
+    font-size: 1.8em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navigation menu */
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 5px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .nav-menu li {
+        padding: 10px 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+}
+
+
+
+
+/* call button */
+/* styles.css */
+.call-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.call-button:hover {
+    background-color: #45a049;
+}
+
+.call-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+/* telephone button */
+.call-button {
+    display: inline-block;
+    padding: 15px;
+    background-color: #4CAF50; 
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* Icon size */
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.call-button:hover {
+    background-color: #45a049;
+}
+
+.call-button i {
+    font-size: 1.5em; /* Adjust size of the icon */
+}
