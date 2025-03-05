@@ -5,11 +5,18 @@ body {
     
 }
 
+.sub-title {
+    font-size: 24px;  /* Adjust size for PC */
+    color: green;   /* Change to a different color */
+    text-decoration: underline;  /* Optional underline */
+    font-weight: bold; /* Make text bold */
+    text-align: center;  /* Align left, center, or right as needed */
+}
 
 
 p {
 color: #fffdfa;
-font-size: 150%;
+font-size: 110%;
 text-align: center;
 justify-content: space-around;
 } 
@@ -96,6 +103,25 @@ img {
         text-align: center;
         align-items: center;
         
+    }
+    @media (max-width: 768px) {
+        .sub-title {
+            font-size: 20px;
+            text-align: center; /* Adjust alignment if needed */
+            color: green; /* Adjust color if necessary */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .sub-title {
+            font-size: 18px;
+        }
+    }
+
+    .sub-title {
+        display: inline-block; /* Helps control the underline width */
+        border-bottom: 2px solid green; /* Adjust thickness and color */
+        padding-bottom: 3px; /* Adds space between text and underline */
     }
 
     /* .container {
