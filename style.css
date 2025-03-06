@@ -278,9 +278,49 @@ img {
             padding: 12px 0;
         } */
     }
-
-
     #contact {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    form {
+        max-width: 400px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    
+
+    /* #contact {
         max-width: 300px;
         margin: 5px auto;
         padding: 50px;
@@ -324,7 +364,7 @@ img {
     
     button:hover {
         background: black;
-    }
+    } */
 
 
 
@@ -459,3 +499,39 @@ header {
 .call-button i {
     font-size: 1.5em; /* Adjust size of the icon */
 }
+
+/* contact us today button */
+
+.contact-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: green; /* Change color as needed */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* contact us today button */
+
+.contact-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: green; /* Change color as needed */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
